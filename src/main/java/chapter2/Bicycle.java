@@ -1,4 +1,7 @@
-public class Bicycle extends TwoWheeled {
+package chapter2;
+
+public class Bicycle extends TwoWheeled{
+
     // instance variable declarations
     private int gears = 0;
     private double cost = 0.0;

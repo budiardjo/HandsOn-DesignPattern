@@ -1,4 +1,6 @@
-public class Driver {
+package chapter2;
+
+public class Driver extends Bicycle{
     public static void main(String[] args) {
         // Example calls to mutators
         Bicycle myBike = new Bicycle();
@@ -37,7 +39,7 @@ public class Driver {
             System.out.println("myBike6 Instance of TwoWheeled: True");
         else
             System.out.println("myBike6 Instance of TwoWheeled: False");
-        if (myBike6 instanceof vehicle)
+        if (myBike6 instanceof Vehicle)
             System.out.println("myBike6 Instance of Vehicle: True");
         else
             System.out.println("myBike6 Instance of Vehicle: False");
@@ -61,7 +63,7 @@ public class Driver {
         else
             System.out.println("myTwoWheeled Instance of TwoWheeled: False");
 
-        if (myTwoWheeled instanceof vehicle)
+        if (myTwoWheeled instanceof Vehicle)
             System.out.println("myTwoWheeled Instance of Vehicle: True");
         else
             System.out.println("myTwoWheeled Instance of Vehicle: False");
@@ -72,7 +74,7 @@ public class Driver {
 
 
         // focus on Vehicle
-        vehicle myVehicle = new vehicle();
+        Vehicle myVehicle = new Vehicle();
         if (myVehicle instanceof Bicycle)
             System.out.println("\nmyVehicle Instance of Bicycle: True");
 
@@ -85,7 +87,7 @@ public class Driver {
         else
             System.out.println("myVehicle Instance of TwoWheeled: False");
 
-        if (myVehicle instanceof vehicle)
+        if (myVehicle instanceof Vehicle)
             System.out.println("myVehicle Instance of Vehicle: True");
 
         else
